@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles/default.css";
+import "./styles/style.css";
 import stepsData from "./stepsData.json"
 
 function App() {

@@ -1,5 +1,6 @@
 :root {
   --main-color: #E38B29;
+  --second-color: #C27218;
 }
 
 * {
@@ -62,8 +63,8 @@ body {
 }
 .food__title {
   font-size: clamp(2rem, 1.648rem + 1.5vw, 3rem);
-  color: #C27218;
-  -webkit-text-stroke: 1px #C27218;
+  color: var(--second-color);
+  -webkit-text-stroke: 1px var(--second-color);
 }
 .food__text {
   font-size: 20px;
@@ -138,7 +139,7 @@ body {
 }
 .list__title {
   font-size: 24px;
-  color: #C27218;
+  color: var(--second-color);
 }
 .list__description {
   color: var(--main-color);
